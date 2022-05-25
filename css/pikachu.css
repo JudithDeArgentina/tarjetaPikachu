@@ -1,0 +1,55 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+  }
+  .container{
+    width:min(90%,1200px) ;
+    margin:0 auto;
+    height: 550px;
+  }
+    
+  
+  p{
+    font-weight: bold;
+    margin:0 auto;
+    font-size: 0.85em;
+    padding: 2px 15px 10px 15px;
+    
+  
+  }
+
+  .div1{
+    position: relative;
+    top: -10px;
+    left: 110px;
+    background-color:rgb(255, 0, 0);
+    border: 2px solid rgb(10, 5, 1);
+    width: 80px;
+    height: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left:0 auto;
+    margin-right:0 auto; 
+    text-align: center;
+  }
+  
+  .div2{
+    background-color:darkorange;
+    margin:0 auto;
+    margin-top: 40px;
+    width: 300px;
+    height: 450px;
+    align-items: center;
+    border: 2px solid rgb(10, 5, 1);
+    border-radius: 10px;
+  }
+
+  .pikachu{
+      display: block;
+      margin: 30px auto;
+      width:250px;
+      filter: drop-shadow( 5px 15px 10px rgb(24, 1, 1));
+      margin-top:-5px;
+    }
+
